@@ -21,7 +21,7 @@ def delete_peoples():
     people.delete()
 
 if __name__ == '__main__':
-    #new_peoples()
+    new_peoples()
     #delete_peoples()
-    check_peoples()
+    #check_peoples()
     #change_peoples()

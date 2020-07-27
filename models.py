@@ -29,8 +29,8 @@ class Todo(Base):
     __tablename__='todo'
     id = Column(Integer, primary_key=True)
     name = Column(String(80))
-    pessoa_id = Column(Integer, ForeignKey('people.id'))
-    pessoa = relationship('People')
+    user_id = Column(Integer, ForeignKey('people.id'))
+    user = relationship('People')
 
     def __repr__(self):
         return '<People {}>'.format(self.name)
