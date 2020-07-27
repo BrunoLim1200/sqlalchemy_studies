@@ -1,3 +1,3 @@
 # todolist_flaskexercise
-Learning SQLAlchemy to help me with Python Aplications
+Creating a TodoList using Flask-RESTful and SQLAlchemy  
 Course on [Digital Innovation One](https://digitalinnovation.one)
